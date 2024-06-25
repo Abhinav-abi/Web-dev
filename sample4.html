@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document4</title>
+    <style>
+        img {
+            width: 300px;
+            height: auto;
+
+        }
+        .dc{
+            background-color: red;
+        }
+        .marvel{
+            background-color: black;
+        }
+
+        .super img {
+            width: 400px;
+            height: auto;
+            border: 10px dotted #3A7EE7;
+            border-radius: 50%;
+            aspect-ratio: 1;
+            object-fit: cover;
+
+        }
+        #superman{
+            width: 600px;
+            height:auto;
+        }
+        img:hover{
+            /*increases size by 110%*/
+            transform:scale(1.1);
+            transition:all 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="super">
+        <img id="superman" class="dc" src="Images/avatar.png" alt="avatar">
+        <img  class="marvel" src="Images/batman.png" alt="batman">
+        <img  class="marvel" src="Images/superman.png" alt="superman">
+    </div>
+
+    <img src="Images/Passportsize-Abhinav.jpg" alt="Abhi">
+</body>
+
+</html>
